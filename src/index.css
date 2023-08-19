@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@300&family=Inter&family=Montserrat+Alternates:wght@700&display=swap");
+.shop_list {
+  width: 480px;
+  height: 480px;
+  border-radius: 10px;
+  padding: 50px 0 0 0;
+  margin: 90px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.shop_list > h1 {
+  color: #000;
+  font-family: Inter;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin: 0 auto;
+  margin-bottom: 15px;
+}
+.manage {
+  width: 400px;
+  padding-left: 0 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #b3b3b3;
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+.manage > p {
+  color: #b3b3b3;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.list {
+  width: auto;
+  height: 450px;
+  overflow-y: auto;
+}
+.item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fbfbfb;
+  width: 400px;
+  height: 72px;
+  padding: 10px;
+  margin: 15px 0;
+  border-radius: 15px;
+  padding: 0 20px;
+  box-shadow: 2px 2px 2px 0px rgba(0, 0, 0, 0.1);
+}
+.title {
+  color: #000;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.hajm {
+  color: #a4a4a4;
+  font-family: Inter;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-bottom: 5px;
+}
+.item_block {
+  width: 80%;
+  margin-bottom: 5px;
+  height: 40px;
+}
+::-webkit-scrollbar {
+  display: none;
+}
+.d_o_n {
+  width: 30px;
+  height: 30px;
+  border-radius: 50px;
+}
